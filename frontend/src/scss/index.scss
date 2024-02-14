@@ -1,0 +1,81 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #E4E6D9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body,
+p,
+h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+tr,
+th {
+  background: inherit !important;
+}
+
+tr th,
+td {
+  text-align: center;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 0 5px 5px 0;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  border-radius: 0 5px 5px 0;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #c0cfb2;
+}
+
+.scrollbar-custom {
+  scrollbar-color: #c0cfb2 #F5F5F5;
+}
+
+td {
+  cursor: pointer;
+}
+
+.button-dark-green-hover:hover {
+  background: #a454fa !important;
+}
+
+.link-dark-green-hover:hover {
+  color: #a454fa !important;
+}
+
+.button-light-hover:hover {
+  background: rgb(246, 215, 255) !important;
+}
+
+.title-dark-green {
+  color: #702262 !important;
+}
+
+.draggable-hover:hover {
+  background-color: #f8f8f8;
+}
